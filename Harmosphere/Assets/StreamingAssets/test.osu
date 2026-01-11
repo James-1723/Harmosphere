@@ -1,0 +1,100 @@
+osu file format v14
+
+[General]
+AudioFilename: minimal_calm_audio_110bpm_036s.mp3
+AudioLeadIn: 0
+PreviewTime: 10000
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.9
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 2727,8182,16364,27273
+DistanceSpacing: 1.0 // 降低DS，使圖案更集中，但間隔仍大
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:Minimal Serenity
+TitleUnicode:Minimal Serenity
+Artist:AI Generated
+ArtistUnicode:AI Generated
+Creator:Gemini
+Version:Calmness 110BPM (Minimal Density)
+Source:
+Tags:instrumental rhythmic calm very_easy minimal
+BeatmapID:0
+BeatmapSetID:0
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:4
+OverallDifficulty:5 // 降低難度
+ApproachRate:5
+SliderMultiplier:1.0
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"background_110bpm.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,545.454545454545,4,2,1,50,1,0 // Red Line: 110 BPM
+18000,545.454545454545,4,2,1,40,0,0 // Green Line: Lower volume
+30000,545.454545454545,4,2,1,60,1,0 // Red Line: Finale build-up, louder
+
+[Colours]
+Combo1 : 173,216,230 
+Combo2 : 144,238,144 
+Combo3 : 255,255,153 
+Combo4 : 255,192,203 
+
+[HitObjects]
+// Segment 1: 0 - 18000ms (Mostly 1/1 rhythm with 1/2 lead-in)
+150,200,545,1,0,0:0:0:0: // C1 (1/1)
+350,250,1091,1,0,0:0:0:0: // (1/1)
+250,300,1636,5,0,0:0:0:0: // C2 Slider
+250,300,1909,2,0,L|150:300,1,272.727,0:0:0:0: // 1/2 slider end
+400,150,2727,1,0,0:0:0:0: // (1/1)
+100,250,3273,1,0,0:0:0:0: // (1/1)
+250,350,3818,1,0,0:0:0:0: // (1/1)
+450,250,4364,5,0,0:0:0:0: // C3
+150,150,5455,1,0,0:0:0:0: // (2/1)
+350,350,6545,1,0,0:0:0:0: // (2/1)
+250,250,7636,5,0,0:0:0:0: // C4 Slider
+250,250,7909,2,0,L|250:50,1,545.455,0:0:0:0: // 1/1 slider end
+150,350,9273,1,0,0:0:0:0: // (2/1)
+400,100,10364,1,0,0:0:0:0: // (2/1)
+100,400,11455,5,0,0:0:0:0: // C1 Slider
+100,400,12000,2,0,L|400:400,1,1090.909,0:0:0:0: // 2 beat slider
+250,250,13636,1,0,0:0:0:0: // (2/1)
+250,250,14727,1,0,0:0:0:0: // (2/1)
+150,200,15818,5,0,0:0:0:0: // C2
+
+// Segment 2: 18000 - 36000ms (Minimal flow and Spinner)
+350,300,18182,5,0,0:0:0:0: // C3 (1/1)
+150,250,18727,1,0,0:0:0:0: // (1/1)
+450,200,19273,1,0,0:0:0:0: // (1/1)
+250,450,19818,1,0,0:0:0:0: // (1/1)
+250,250,20364,5,0,0:0:0:0: // C4 Slider
+250,250,21455,2,0,L|250:50,1,1090.909,0:0:0:0: // 2 beat slider
+150,350,23091,1,0,0:0:0:0: // (2/1)
+400,100,24182,1,0,0:0:0:0: // (2/1)
+250,250,25273,5,0,0:0:0:0: // C1 Slider
+250,250,26364,2,0,L|400:250,1,1090.909,0:0:0:0: // 2 beat slider
+450,250,27727,5,0,0:0:0:0: // C2 (1/1)
+50,250,28273,1,0,0:0:0:0: // (1/1)
+250,50,28818,1,0,0:0:0:0: // (1/1)
+250,450,29364,1,0,0:0:0:0: // (1/1)
+250,250,30182,12,0,35545,0:0:0:0: // Spinner (Ends near 36000ms)

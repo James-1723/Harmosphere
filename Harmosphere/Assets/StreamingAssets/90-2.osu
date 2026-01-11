@@ -1,0 +1,110 @@
+osu file format v14
+
+[General]
+AudioFilename: simple_easy_audio_90bpm_034s.mp3
+AudioLeadIn: 0
+PreviewTime: 17000
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 1
+
+[Editor]
+Bookmarks: 3333,10000,20000,30000
+DistanceSpacing: 1.0
+BeatDivisor: 4
+GridSize: 8
+TimelineZoom: 1
+
+[Metadata]
+Title:Beginner Calm VIII
+TitleUnicode:Beginner Calm VIII
+Artist:AI Generated
+ArtistUnicode:AI Generated
+Creator:Gemini
+Version:Easy 90BPM
+Source:
+Tags:instrumental relaxing calm very_easy beginner slow
+BeatmapID:0
+BeatmapSetID:0
+
+[Difficulty]
+HPDrainRate:3
+CircleSize:4
+OverallDifficulty:3
+ApproachRate:3
+SliderMultiplier:1.0
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"background_90bpm.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+
+[TimingPoints]
+0,666.666666666667,4,2,1,50,1,0 // Red Line: 90 BPM (667ms per beat)
+17000,666.666666666667,4,2,1,40,0,0 // Green Line: Lower volume
+30000,666.666666666667,4,2,1,55,1,0 // Red Line: Finale build-up
+
+[Colours]
+Combo1 : 173,216,230 
+Combo2 : 144,238,144 
+Combo3 : 255,255,153 
+Combo4 : 255,192,203 
+
+[HitObjects]
+// Segment 1: 0 - 34000ms (Strictly 1/1 rhythm)
+150,200,667,1,0,0:0:0:0: // C1
+350,250,1333,1,0,0:0:0:0:
+250,300,2000,1,0,0:0:0:0:
+100,250,2667,5,0,0:0:0:0: // C2 Slider
+100,250,3333,2,0,L|300:250,1,666.667,0:0:0:0: // 1/1 slider
+400,150,4000,1,0,0:0:0:0:
+200,100,4667,1,0,0:0:0:0:
+300,150,5333,1,0,0:0:0:0:
+250,350,6000,5,0,0:0:0:0: // C3
+150,150,6667,1,0,0:0:0:0:
+450,250,7333,1,0,0:0:0:0:
+250,250,8000,5,0,0:0:0:0: // C4 Slider
+250,250,8667,2,0,L|250:50,1,666.667,0:0:0:0: // 1/1 slider
+150,350,9333,1,0,0:0:0:0:
+350,150,10000,1,0,0:0:0:0:
+100,100,10667,5,0,0:0:0:0: // C1
+400,400,11333,1,0,0:0:0:0:
+400,300,12000,1,0,0:0:0:0:
+100,400,12667,1,0,0:0:0:0:
+250,250,13333,5,0,0:0:0:0: // C2 Slider
+250,250,14000,6,0,P|150:250|350:250,1,1333.333,0:0:0:0: // 2/1 reverse slider
+150,350,16667,1,0,0:0:0:0:
+350,150,17333,1,0,0:0:0:0:
+250,250,18000,5,0,0:0:0:0: // C3
+250,250,18667,1,0,0:0:0:0:
+250,250,19333,1,0,0:0:0:0:
+250,250,20000,1,0,0:0:0:0:
+250,250,20667,1,0,0:0:0:0:
+250,250,21333,1,0,0:0:0:0:
+250,250,22000,1,0,0:0:0:0:
+250,250,22667,1,0,0:0:0:0:
+250,250,23333,1,0,0:0:0:0:
+250,250,24000,1,0,0:0:0:0:
+250,250,24667,1,0,0:0:0:0:
+250,250,25333,1,0,0:0:0:0:
+250,250,26000,1,0,0:0:0:0:
+250,250,26667,1,0,0:0:0:0:
+250,250,27333,1,0,0:0:0:0:
+250,250,28000,1,0,0:0:0:0:
+250,250,28667,1,0,0:0:0:0:
+250,250,29333,1,0,0:0:0:0:
+250,250,30000,1,0,0:0:0:0:
+250,250,30667,1,0,0:0:0:0:
+250,250,31333,1,0,0:0:0:0:
+250,250,32000,1,0,0:0:0:0:
+250,250,32667,12,0,33667,0:0:0:0: // Spinner (Ends near 34000ms)
