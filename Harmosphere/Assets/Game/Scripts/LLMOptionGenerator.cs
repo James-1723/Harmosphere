@@ -18,7 +18,7 @@ public class LLMOptionGenerator : MonoBehaviour
     public LLMOptions generatedOptions = new LLMOptions();
 
     // private string apiKey = "AIzaSyAQTdy1nEgjCKzqhNCsw82YdOjOo70J0E8";
-    private string apiKey = "AIzaSyBzvAm3r9qjbeK88BISlEeggH7XbY1oVJ4";
+    private string apiKey = "";
     
     private string model = "gemini-2.5-flash";
 
